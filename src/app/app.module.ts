@@ -9,15 +9,13 @@ import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import {TooltipModule} from 'primeng/tooltip';
 import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
-//import {InputTextModule} from 'primeng/inputtext';
-//import {TabViewModule} from 'primeng/tabview';
-//import { ButtonModule } from 'primeng/button';
-
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LancamentosPesquisaComponent
+    LancamentosPesquisaComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
