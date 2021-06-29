@@ -8,6 +8,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import {TooltipModule} from 'primeng/tooltip';
+import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
 //import {InputTextModule} from 'primeng/inputtext';
 //import {TabViewModule} from 'primeng/tabview';
 //import { ButtonModule } from 'primeng/button';
@@ -15,7 +16,8 @@ import {TooltipModule} from 'primeng/tooltip';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LancamentosPesquisaComponent
   ],
   imports: [
     BrowserModule,
